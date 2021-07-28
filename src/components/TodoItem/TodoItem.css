@@ -1,0 +1,38 @@
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 320px;
+  margin-bottom: 16px;
+  padding: 3px 24px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.imp span {
+  color: rgb(194, 16, 16);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.TodoItem button {
+  height: 68px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.TodoItem span {
+  font-size: 20px;
+}
+
+.TodoItem .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}

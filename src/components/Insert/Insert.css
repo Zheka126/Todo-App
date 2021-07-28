@@ -1,0 +1,38 @@
+.insert {
+  position: fixed;
+  bottom: 25px;
+  margin: 0 168px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.insert input {
+  width: 91%;
+  height: 25px;
+  padding: 20px 75px;
+  padding-right: 645px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.insert input:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.insert input:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.insert input::placeholder {
+  color: #cacaca;
+}
+
+.insert img {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  width: 30px;
+}

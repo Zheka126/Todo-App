@@ -1,0 +1,32 @@
+.search {
+  position: relative;
+  width: 304px;
+  height: 40px;
+  padding: 0 50px;
+  border-radius: 40px;
+  background: #fff;
+  transition: all 0.3s ease;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+.search:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.search:focus {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.search input {
+  width: 330px;
+  height: 96%;
+  border: none;
+  outline: none;
+}
+
+.search img {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 18px;
+}
